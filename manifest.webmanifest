@@ -1,0 +1,15 @@
+{
+  "name": "语言地图",
+  "short_name": "语言地图",
+  "description": "0–6 岁语言与沟通地图：找卡点、在家练、4 周计划。家长教育信息，不做诊断。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ee",
+  "theme_color": "#243024",
+  "lang": "zh-CN",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
