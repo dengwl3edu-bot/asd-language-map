@@ -1,0 +1,25 @@
+{
+  "name": "Language Map",
+  "short_name": "Language Map",
+  "description": "Language and communication map for ages 0–6: find sticking points, practise at home, follow a 4-week plan. Parent education information, not a diagnosis.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f3ee",
+  "theme_color": "#243024",
+  "lang": "en-NZ",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
