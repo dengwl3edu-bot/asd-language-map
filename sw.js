@@ -1,5 +1,5 @@
 // 离线缓存。版本号随内容指纹变化，内容更新后换新缓存。
-const V = "lang-map-a5db2f36";
+const V = "lang-map-157c6f4c";
 const FILES = ["./","index.html","./3d.html","./manifest.webmanifest","./icon-192.png","./icon-512.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(V).then(function (c) { return c.addAll(FILES); }).then(function () { return self.skipWaiting(); }));
